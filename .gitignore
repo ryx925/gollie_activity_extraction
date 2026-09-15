@@ -1,0 +1,11 @@
+.venv/
+.hf_cache/
+__pycache__/
+*.pyc
+*.epub
+data/raw/book.txt
+data/raw/book_by_chapter.json
+data/chunks/chunks.jsonl
+data/outputs/*.txt
+data/outputs/*.jsonl
+logs/*.log
