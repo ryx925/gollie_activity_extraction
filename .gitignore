@@ -1,6 +1,7 @@
 .venv/
 .hf_cache/
-README.md
+TASK_HANDOFF.md
 __pycache__/
 *.pyc
 *.epub
+logs/*.log
