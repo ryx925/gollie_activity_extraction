@@ -1,0 +1,163 @@
+{
+  "source_file": "Daily Life in Renaissance Italy,2nd Edition .epub",
+  "source_sha256": "1e3422c954b40e1a802220d54dddfdf2e26dcfb6cdb8a65016bf77df917dd915",
+  "selection": "Formal chapters 1-18 only; front matter, timeline, bibliography, index, and author biography excluded.",
+  "chunking": {
+    "strategy": "sentence-aware, paragraph-preserving, no cross-chapter chunks",
+    "target_words": 650,
+    "minimum_words": 500,
+    "maximum_words": 750,
+    "overlap_target_words": 120,
+    "overlap_max_words": 150
+  },
+  "chapter_count": 18,
+  "source_words": 114928,
+  "chunk_count": 226,
+  "chunk_words_with_overlap": 141804,
+  "chapters": [
+    {
+      "chapter_number": 1,
+      "chapter": "1 Italy in the Renaissance",
+      "source_href": "xhtml/Ch01.xhtml",
+      "source_words": 6133,
+      "paragraphs": 34,
+      "chunks": 12
+    },
+    {
+      "chapter_number": 2,
+      "chapter": "2 Society: Who Was Who",
+      "source_href": "xhtml/Ch02.xhtml",
+      "source_words": 6772,
+      "paragraphs": 41,
+      "chunks": 13
+    },
+    {
+      "chapter_number": 3,
+      "chapter": "3 Dangers",
+      "source_href": "xhtml/Ch03.xhtml",
+      "source_words": 4369,
+      "paragraphs": 25,
+      "chunks": 9
+    },
+    {
+      "chapter_number": 4,
+      "chapter": "4 Family and Other Solidarities",
+      "source_href": "xhtml/Ch04.xhtml",
+      "source_words": 6640,
+      "paragraphs": 46,
+      "chunks": 13
+    },
+    {
+      "chapter_number": 5,
+      "chapter": "5 Hierarchies",
+      "source_href": "xhtml/Ch05.xhtml",
+      "source_words": 6137,
+      "paragraphs": 36,
+      "chunks": 12
+    },
+    {
+      "chapter_number": 6,
+      "chapter": "6 Moralities: Religion and Honor",
+      "source_href": "xhtml/Ch06.xhtml",
+      "source_words": 7599,
+      "paragraphs": 47,
+      "chunks": 15
+    },
+    {
+      "chapter_number": 7,
+      "chapter": "7 Keeping Order",
+      "source_href": "xhtml/Ch07.xhtml",
+      "source_words": 7031,
+      "paragraphs": 44,
+      "chunks": 14
+    },
+    {
+      "chapter_number": 8,
+      "chapter": "8 Communicating: Images and Words",
+      "source_href": "xhtml/Ch08.xhtml",
+      "source_words": 7908,
+      "paragraphs": 50,
+      "chunks": 16
+    },
+    {
+      "chapter_number": 9,
+      "chapter": "9 Spaces",
+      "source_href": "xhtml/Ch09.xhtml",
+      "source_words": 5848,
+      "paragraphs": 33,
+      "chunks": 11
+    },
+    {
+      "chapter_number": 10,
+      "chapter": "10 Time",
+      "source_href": "xhtml/Ch10.xhtml",
+      "source_words": 4065,
+      "paragraphs": 24,
+      "chunks": 8
+    },
+    {
+      "chapter_number": 11,
+      "chapter": "11 Life Cycles: From Birth Through Youth",
+      "source_href": "xhtml/Ch11.xhtml",
+      "source_words": 8188,
+      "paragraphs": 52,
+      "chunks": 16
+    },
+    {
+      "chapter_number": 12,
+      "chapter": "12 Life Cycles: From Marriage Through Death",
+      "source_href": "xhtml/Ch12.xhtml",
+      "source_words": 6546,
+      "paragraphs": 39,
+      "chunks": 13
+    },
+    {
+      "chapter_number": 13,
+      "chapter": "13 Houses, Food, and Clothing",
+      "source_href": "xhtml/Ch13.xhtml",
+      "source_words": 9169,
+      "paragraphs": 55,
+      "chunks": 18
+    },
+    {
+      "chapter_number": 14,
+      "chapter": "14 Disease and Health",
+      "source_href": "xhtml/Ch14.xhtml",
+      "source_words": 5657,
+      "paragraphs": 42,
+      "chunks": 11
+    },
+    {
+      "chapter_number": 15,
+      "chapter": "15 Work",
+      "source_href": "xhtml/Ch15.xhtml",
+      "source_words": 8314,
+      "paragraphs": 47,
+      "chunks": 16
+    },
+    {
+      "chapter_number": 16,
+      "chapter": "16 Play",
+      "source_href": "xhtml/Ch16.xhtml",
+      "source_words": 7092,
+      "paragraphs": 48,
+      "chunks": 14
+    },
+    {
+      "chapter_number": 17,
+      "chapter": "17 Coming and Going: Italy and the World",
+      "source_href": "xhtml/Ch17.xhtml",
+      "source_words": 6183,
+      "paragraphs": 33,
+      "chunks": 12
+    },
+    {
+      "chapter_number": 18,
+      "chapter": "18 Last Words",
+      "source_href": "xhtml/Ch18.xhtml",
+      "source_words": 1277,
+      "paragraphs": 9,
+      "chunks": 3
+    }
+  ]
+}

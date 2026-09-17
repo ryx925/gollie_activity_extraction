@@ -1,0 +1,55 @@
+MODEL: HiTZ/GoLLIE-7B
+QUANTIZATION: 4-bit NF4 + double quantization + FP16 compute
+INPUT TOKENS: 579
+OUTPUT TOKENS: 147
+INFERENCE SECONDS: 13.58
+
+RAW MODEL OUTPUT
+[
+    MovementEvent(
+        person="Giovanni",
+        activity="walked",
+        time="early in the morning",
+        location="market",
+        origin=None,
+        destination=None,
+        transport_mode=None,
+        evidence="He walked to the market",
+    ),
+    MovementEvent(
+        person="Giovanni",
+        activity="travelled",
+        time=None,
+        location="Florence",
+        origin=None,
+        destination=None,
+        transport_mode="by horse",
+        evidence="He travelled by horse to Florence",
+    ),
+]
+
+PARSED EVENTS
+[
+  {
+    "event_type": "MovementEvent",
+    "person": "Giovanni",
+    "activity": "walked",
+    "time": "early in the morning",
+    "location": "market",
+    "origin": null,
+    "destination": null,
+    "transport_mode": null,
+    "evidence": "He walked to the market"
+  },
+  {
+    "event_type": "MovementEvent",
+    "person": "Giovanni",
+    "activity": "travelled",
+    "time": null,
+    "location": "Florence",
+    "origin": null,
+    "destination": null,
+    "transport_mode": "by horse",
+    "evidence": "He travelled by horse to Florence"
+  }
+]

@@ -5,3 +5,11 @@ __pycache__/
 *.pyc
 *.epub
 logs/*.log
+data/raw/*
+!data/raw/.gitkeep
+data/chunks/*
+!data/chunks/.gitkeep
+!data/chunks/chunk_manifest.json
+data/outputs/*
+!data/outputs/.gitkeep
+!data/outputs/smoke_test.txt
